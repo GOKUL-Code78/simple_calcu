@@ -5,8 +5,8 @@ st.title("This Is A Simple Calculater Made By Gokul❤️ ")
 
 #taking inputs
 string=st.text_input("PLEASE ENTER YOUR NAME (OPTIONAL)").upper()
-num1=st.number_input("ENTER FIRST NUMBER")
-num2=st.number_input("ENTER SECOND NUMBER")
+num1=int(st.number_input("ENTER FIRST NUMBER"))
+num2=int(st.number_input("ENTER SECOND NUMBER"))
 
 #CHOOSE OPERATION
 
@@ -46,3 +46,4 @@ if st.button("CALCULATE"):
          st.success(f"YOUR RESULT IS {result}")
          if string:
           st.success(f"THANKYOU {string} 😊 FOR USING GOKUL'S CALCULATER")
+          
