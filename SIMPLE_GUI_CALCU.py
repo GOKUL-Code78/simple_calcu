@@ -32,7 +32,7 @@ if st.button("CALCULATE"):
     elif operation=="Multiplication":
         result=num1 * num2
         st.balloons()
-        st.success(f"YOUR RESULT IS {result}")
+        st.success(f"YOUR RES IS {result}")
         if stringg:
          st.success(f"THANKYOU {stringg} 😊 FOR USING GOKUL'S CALCULATER")
 
