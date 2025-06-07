@@ -4,7 +4,7 @@ import streamlit as st
 st.title("This Is A Simple Calculater Made By Gokul❤️ ")
 
 #taking inputs
-string=st.text_input("PLEASE ENTER YOUR NAME (OPTIONAL)").upper()
+stringg=st.text_input("PLEASE ENTER YOUR NAME (OPTIONAL)").upper()
 num1=(st.number_input("ENTER FIRST NUMBER"))
 num2=(st.number_input("ENTER SECOND NUMBER"))
 
@@ -18,23 +18,23 @@ if st.button("CALCULATE"):
         result=num1+num2
         st.balloons()
         st.success(f"YOUR RESULT IS {result}")
-        if string:
-         st.success(f"THANKYOU {string} 😊 FOR USING GOKUL'S CALCULATER")
+        if stringg:
+         st.success(f"THANKYOU {stringg} 😊 FOR USING GOKUL'S CALCULATER")
 
     elif operation== "SUBSTRACTION":
         result=num1-num2
         st.balloons()
         st.success(f"YOUR RESULT IS{result}")
-        if string:
-         st.success(f"THANKYOU {string} 😊 FOR USING GOKUL'S CALCULATER")
+        if stringg:
+         st.success(f"THANKYOU {stringg} 😊 FOR USING GOKUL'S CALCULATER")
 
 
     elif operation=="MULTIPLICATION":
         result=num1*num2
         st.balloons()
         st.success(f"YOUR RESLUT IS {result}")
-        if string:
-         st.success(f"THANKYOU {string} 😊 FOR USING GOKUL'S CALCULATER")
+        if stringg:
+         st.success(f"THANKYOU {stringg} 😊 FOR USING GOKUL'S CALCULATER")
 
     else:
         operation=="DIVISION"
@@ -44,6 +44,6 @@ if st.button("CALCULATE"):
          result=num1/num2
          st.balloons()
          st.success(f"YOUR RESULT IS {result}")
-         if string:
-          st.success(f"THANKYOU {string} 😊 FOR USING GOKUL'S CALCULATER")
+         if stringg:
+          st.success(f"THANKYOU {stringg} 😊 FOR USING GOKUL'S CALCULATER")
           
