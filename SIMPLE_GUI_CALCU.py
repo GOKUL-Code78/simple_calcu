@@ -24,7 +24,7 @@ if st.button("CALCULATE"):
     elif operation== "SUBSTRACTION":
         result=num1-num2
         st.balloons()
-        st.success(f"YOUR RESUKT IS{result}")
+        st.success(f"YOUR RESULT IS{result}")
         if string:
          st.success(f"THANKYOU {string} 😊 FOR USING GOKUL'S CALCULATER")
 
