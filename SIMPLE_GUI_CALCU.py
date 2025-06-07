@@ -10,7 +10,7 @@ num2=(st.number_input("ENTER SECOND NUMBER",step=1.0))
 
 #CHOOSE OPERATION
 
-operation=st.selectbox("CHOOSE OPERATION",["ADDITION","SUBSTRACTION","MULTIPLLICATION","DIVISION"])
+operation=st.selectbox("CHOOSE OPERATION",["ADDITION","SUBSTRACTION","Multiplication","DIVISION"])
 
 #OPERATION DONE
 if st.button("CALCULATE"):
@@ -29,7 +29,7 @@ if st.button("CALCULATE"):
          st.success(f"THANKYOU {stringg} 😊 FOR USING GOKUL'S CALCULATER")
 
 
-    elif operation=="MULTIPLICATION":
+    elif operation=="Multiplication":
         result=num1 * num2
         st.balloons()
         st.success(f"YOUR RESLUT IS {result}")
