@@ -5,8 +5,8 @@ st.title("This Is A Simple Calculater Made By Gokul❤️ ")
 
 #taking inputs
 stringg=st.text_input("PLEASE ENTER YOUR NAME (OPTIONAL)").upper()
-num1=(st.number_input("ENTER FIRST NUMBER"))
-num2=(st.number_input("ENTER SECOND NUMBER"))
+num1=(st.number_input("ENTER FIRST NUMBER",step=1.0))
+num2=(st.number_input("ENTER SECOND NUMBER",step=1.0))
 
 #CHOOSE OPERATION
 
