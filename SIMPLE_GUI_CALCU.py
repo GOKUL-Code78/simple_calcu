@@ -1,7 +1,7 @@
 import streamlit as st
 
 # title
-st.title("This Is A Simple Calculater Made By Gokul❤️ ")
+st.title("Simple Calculator")
 
 #taking inputs
 stringg=st.text_input("PLEASE ENTER YOUR NAME (OPTIONAL)").upper()
