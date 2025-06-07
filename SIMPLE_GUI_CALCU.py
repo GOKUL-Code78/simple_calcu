@@ -30,7 +30,7 @@ if st.button("CALCULATE"):
 
 
     elif operation=="MULTIPLICATION":
-        result=num1*num2
+        result=num1 * num2
         st.balloons()
         st.success(f"YOUR RESLUT IS {result}")
         if stringg:
