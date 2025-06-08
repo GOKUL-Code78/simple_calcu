@@ -19,7 +19,7 @@ if st.button("CALCULATE"):
         st.balloons()
         st.success(f"YOUR RESULT IS {result}")
         if stringg:
-         st.success(f"THANKYOU {stringg} 😊 FOR USING GOKUL'S CALCULATER")
+         st.markdown(f"**THANKYOU {stringg} 😊 FOR USING GOKUL'S CALCULATER**")
         
           
 
