@@ -21,7 +21,7 @@ if st.button("CALCULATE"):
         if stringg:
          st.success(f"THANKYOU {stringg} 😊 FOR USING GOKUL'S CALCULATER")
         else:
-            stringg==["bablu","raj","gokul",]:
+            stringg==["bablu","raj","gokul"]
             print("O you are friend of Gokul")
           
 
@@ -32,7 +32,7 @@ if st.button("CALCULATE"):
         if stringg:
          st.success(f"THANKYOU {stringg} 😊 FOR USING GOKUL'S CALCULATER")
         else:
-            stringg==["bablu","raj","gokul",]:
+            stringg==["bablu","raj","gokul"]
             print("O you are friend of Gokul")
           
 
@@ -43,7 +43,7 @@ if st.button("CALCULATE"):
         if stringg:
          st.success(f"THANKYOU {stringg} 😊 FOR USING GOKUL'S CALCULATER")
         else:
-            stringg==["bablu","raj","gokul",]:
+            stringg==["bablu","raj","gokul"]
             print("O you are friend of Gokul")
           
 
@@ -58,6 +58,6 @@ if st.button("CALCULATE"):
          if stringg:
           st.success(f"THANKYOU {stringg} 😊 FOR USING GOKUL'S CALCULATER")
          else:
-            stringg==["bablu","raj","gokul",]:
+            stringg==["bablu","raj","gokul"]
             print("O you are friend of Gokul")
           
