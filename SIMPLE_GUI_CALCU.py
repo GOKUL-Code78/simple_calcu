@@ -20,8 +20,10 @@ if st.button("CALCULATE"):
         st.success(f"YOUR RESULT IS {result}")
         if stringg:
          st.success(f"THANKYOU {stringg} 😊 FOR USING GOKUL'S CALCULATER")
-         if stringg==["bablu","raj","gokul",]:
+        else:
+            stringg==["bablu","raj","gokul",]:
             print("O you are friend of Gokul")
+          
 
     elif operation== "SUBSTRACTION":
         result=num1-num2
@@ -29,9 +31,10 @@ if st.button("CALCULATE"):
         st.success(f"YOUR RESULT IS{result}")
         if stringg:
          st.success(f"THANKYOU {stringg} 😊 FOR USING GOKUL'S CALCULATER")
-         if stringg==["bablu","raj","gokul",]:
+        else:
+            stringg==["bablu","raj","gokul",]:
             print("O you are friend of Gokul")
-
+          
 
     elif operation=="Multiplication":
         result=num1 * num2
@@ -39,8 +42,10 @@ if st.button("CALCULATE"):
         st.success(f"YOUR RESULT IS {result}")
         if stringg:
          st.success(f"THANKYOU {stringg} 😊 FOR USING GOKUL'S CALCULATER")
-         if stringg==["bablu","raj","gokul",]:
+        else:
+            stringg==["bablu","raj","gokul",]:
             print("O you are friend of Gokul")
+          
 
     else:
         operation=="DIVISION"
@@ -52,6 +57,7 @@ if st.button("CALCULATE"):
          st.success(f"YOUR RESULT IS {result}")
          if stringg:
           st.success(f"THANKYOU {stringg} 😊 FOR USING GOKUL'S CALCULATER")
-          if stringg==["bablu","raj","gokul",]:
+         else:
+            stringg==["bablu","raj","gokul",]:
             print("O you are friend of Gokul")
           
