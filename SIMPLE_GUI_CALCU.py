@@ -28,16 +28,18 @@ if st.button("CALCULATE"):
         st.balloons()
         st.success(f"YOUR RESULT IS{result}")
         if stringg:
-         st.success(f"THANKYOU {stringg} 😊 FOR USING GOKUL'S CALCULATER")
+          st.markdown(f"**THANKYOU {stringg} 😊 FOR USING GOKUL'S CALCULATER**")
         
+          
 
     elif operation=="Multiplication":
         result=num1 * num2
         st.balloons()
         st.success(f"YOUR RESULT IS {result}")
         if stringg:
-         st.success(f"THANKYOU {stringg} 😊 FOR USING GOKUL'S CALCULATER")
+         st.markdown(f"**THANKYOU {stringg} 😊 FOR USING GOKUL'S CALCULATER**")
         
+          
 
     else:
         operation=="DIVISION"
@@ -48,5 +50,6 @@ if st.button("CALCULATE"):
          st.balloons()
          st.success(f"YOUR RESULT IS {result}")
          if stringg:
-          st.success(f"THANKYOU {stringg} 😊 FOR USING GOKUL'S CALCULATER")
-         
+           st.markdown(f"**THANKYOU {stringg} 😊 FOR USING GOKUL'S CALCULATER**")
+        
+          
